@@ -3,6 +3,7 @@ sys.path.insert(0, 'imports')
 sys.path.insert(0, 'imports/RecordBehaviors')
 sys.path.insert(0, 'imports/GenerateFeedback')
 sys.path.insert(0, 'imports/EvaluateFeedback')
+sys.path.insert(0, 'imports/Distance')
 
 mainConfig = dict()
 with open("main.config") as fileObject:
@@ -14,8 +15,8 @@ with open("main.config") as fileObject:
 import FileFinder
 import RecordBehaviors as RB
 import GenerateFeedback as GF
-import GenerateFeedbackParallel as GFP
 import EvaluateFeedback as EF
+
 
 
 def main():
@@ -43,12 +44,13 @@ def main():
         verbose = str2bool(mainConfig["verbose"])
 
 
+
     submitted = FileFinder.getAll(pathToSubmissions, ".java")
     reference = FileFinder.getAll(pathToReferences, ".java")
     testCases = FileFinder.getAll(pathToTestCases, ".txt")
 
     traceFiles = RB.recordBehaviors(submitted, reference, testCases, traceDir, timeout, verbose, mainConfig)
-    feedback = GF.generateFeedback(traceFiles,pathToProjectFolder, traceDir, verbose)
+    feedback = GF.generateFeedback(traceFiles,pathToProjectFolder, traceDir, verbose, mainConfig)
     evaluation = None
     if comparePoints:
         evaluation = EF.hackerRank_scores(feedback, mainConfig, verbose)
@@ -58,6 +60,7 @@ def main():
     print("Percent Correct: " + str(round(evaluation[0], 2)) + "%")
     print("Number Correct: " + str(evaluation[1]))
     print("Number Total: " + str(evaluation[2]))
+
 
 def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")

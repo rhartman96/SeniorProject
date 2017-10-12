@@ -2,16 +2,16 @@ import os
 import json_storage
 
 def evaluateFeedback(feedback, mainConfig=dict(), verbose=False):
-	#how good is our feedback?
+    #how good is our feedback?
 
     evaluation_diagnostics = False
     if("evaluation_diagnostics" in mainConfig):
         evaluation_diagnostics = str2bool(mainConfig["evaluation_diagnostics"])
 
-	#INPUT
-	#feedback - Dict mapping username to feedback
-	#correctFeedback - Dict mapping username to correctFeedback
-	#verbose - When True, print out the username and feedback that is incorrect while evaluating
+    #INPUT
+    #feedback - Dict mapping username to feedback
+    #correctFeedback - Dict mapping username to correctFeedback
+    #verbose - When True, print out the username and feedback that is incorrect while evaluating
     # if verbose:
     #     print("feedback:")
     #     print(feedback)
@@ -27,7 +27,12 @@ def evaluateFeedback(feedback, mainConfig=dict(), verbose=False):
         #print(user_name_path)
         correct_feedback_file = os.path.join(user_name_path, "summary.txt")
         #correct_feedback_set = set()
+        print(str(feedback[user_name_path]))
         mapped_feedback = os.path.join(feedback[user_name_path][0], "summary.txt")
+
+        if verbose:
+            print("correct_feedback_file = " + correct_feedback_file)
+            print("mapped_feedback = " + mapped_feedback)
         feedback_a_set = dict()
         feedback_b_set = dict()
         with open(correct_feedback_file) as fileObject:
@@ -122,11 +127,11 @@ def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")
 
 def main():
-	#used for testing the evaluate feedback
-	verbose = True
-	evaluation = evaluateFeedback(feedback, correctFeedback, verbose)
+    #used for testing the evaluate feedback
+    verbose = True
+    evaluation = evaluateFeedback(feedback, correctFeedback, verbose)
 
-	print(str(evaluation))
+    print(str(evaluation))
 
 if __name__ == "__main__":
     main()

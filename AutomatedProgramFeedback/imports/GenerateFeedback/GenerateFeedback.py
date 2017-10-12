@@ -2,6 +2,8 @@ import os
 import sys
 sys.path.insert(0, '/root/SeniorProject/Automated Program Feedback/imports')
 import Cmd
+import util
+import Histogram
 
 def getName(filePath):
 	pathSplit = filePath.split("/")
@@ -16,7 +18,7 @@ def readResults(filePath):
 		return results
 	return ""
 
-def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False):
+def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, main_config = dict()):
 	#generate the feedback
 	#INPUT
 	#traceFiles - Tuple of submitted and reference trace files
@@ -45,13 +47,12 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False):
 				referencePathDict[referencePath] = True
 				referenceFileName = referenceTraceFiles[testcase][referencePath]
 				referenceFullPath = os.path.join(referencePath,referenceFileName)
-				output, error, status = Cmd.runCmd("java -cp .. analyze.Difference "+submittedFullPath +" " + referenceFullPath, workingDir=traceDir + "/analyze", verbose=verbose)
-				distanceAway = 0
-				try:
+				if util.str2bool(main_config["histogram"]):
+					print("Doing the histogram stuff")
+					distanceAway = Histogram.get_distance(submittedFullPath, referenceFullPath, main_config)
+				else:
+					output, error, status = Cmd.runCmd("java -cp .. analyze.Difference "+submittedFullPath +" " + referenceFullPath, workingDir= traceDir + "/analyze", verbose=verbose)
 					distanceAway = int(output)
-				except ValueError as verr:
-					#error, getting edit distance, skip
-					continue
 
 				if not referencePath in editDistanceMapping[submittedPath]:
 					distList = list()
@@ -72,7 +73,7 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False):
 	
 	csvStr += "\n"
 
-	# loop through the rows, printing the labels on the left side first
+	#loop through the rows, printing the labels on the left side first
 	for sPath in submittedPaths:
 		csvStr += sPath
 		for rPath in referencePaths:
@@ -91,6 +92,7 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False):
 					print("Edit Distance: " + str(submittedPath) + " => " + str(referencePath) + ": " + str(editDistanceMapping[submittedPath][referencePath]))
 				minDistance, distList = editDistanceMapping[submittedPath][referencePath]
 				minPath = referencePath
+
 		feedback[submittedPath] = (minPath, minDistance, distList)
 	for user in feedback:
 		print(getName(user) + " " + readResults(feedback[user][0]))

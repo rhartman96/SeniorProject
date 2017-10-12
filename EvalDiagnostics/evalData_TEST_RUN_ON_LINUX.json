@@ -2,10 +2,10 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/D",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AE",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "outer loop test off by one": true
@@ -17,91 +17,92 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/P",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "inner loop increment bad": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AR2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
-        537,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        0.010767967185262961,
         [
-            276,
-            261
+            0.007921366609882963,
+            0.0028466005753799983
         ],
         {
             "missing outer loop increment": true
         },
         {
-            "missing outer loop increment": true
+            "correct": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/empty2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "empty program": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "increment of outer loop counter in inner loop": true
         },
         false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/nika/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        119,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/insertion/submission",
+        0.0001230144546638945,
         [
-            16,
-            103
+            0.0,
+            0.0001230144546638945
         ],
         {
             "not selection sort": true
         },
         {
-            "correct": true
+            "not selection sort": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AE2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        21,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AE",
+        0.00037170600889258054,
         [
-            10,
-            11
+            0.0003082537601580837,
+            6.345224873449684e-05
         ],
         {
             "outer loop test off by one": true
         },
         {
-            "correct": true
+            "outer loop test off by one": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/li2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "inner loop increment bad": true,
@@ -115,28 +116,28 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/cambron_chri/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "empty program": true,
             "": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "increment of outer loop counter in inner loop": true
         },
         false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/C",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AD",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "swap error": true
@@ -148,27 +149,27 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/G",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AH",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AD",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "comparison wrong way": true
         },
         {
-            "comparison wrong way": true
+            "swap error": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/li1",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "inner loop increment bad": true,
@@ -182,59 +183,59 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/bounds2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
-        67,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AF",
+        0.010323430833222957,
         [
-            19,
-            48
+            0.003110343404393978,
+            0.007213087428828979
         ],
         {
             "increment of outer loop counter in inner loop": true
         },
         {
-            "increment of outer loop counter in inner loop": true
-        },
-        true
-    ],
-    [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/autry_john/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
-        97,
-        [
-            30,
-            67
-        ],
-        {
-            "increment of outer loop counter in inner loop": true
-        },
-        {
-            "uses command line arguments instead of scanner": true
+            "outer loop counter initialized to one": true
         },
         false
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/craven_matth/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        101,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/autry_john/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0228638146891208,
         [
-            26,
-            75
+            0.01568504563880857,
+            0.007178769050312228
+        ],
+        {
+            "increment of outer loop counter in inner loop": true
+        },
+        {
+            "increment of outer loop counter in inner loop": true
+        },
+        true
+    ],
+    [
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/craven_matth/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/insertion/submission",
+        0.005922588118597694,
+        [
+            0.004241692714285428,
+            0.001680895404312266
         ],
         {
             "correct": true
         },
         {
-            "correct": true
+            "not selection sort": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ref2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "arraylists are call by reference": true
@@ -246,43 +247,43 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/swap",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AD",
-        54,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        0.0004958070677617554,
         [
-            18,
-            36
+            0.000372730144684863,
+            0.00012307692307689244
         ],
         {
             "swap error": true
         },
         {
-            "swap error": true
+            "correct": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AH2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AH",
-        67,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        7.02371746436059e-05,
         [
-            24,
-            43
+            6.032079589546324e-05,
+            9.916378748142662e-06
         ],
         {
             "comparison wrong way": true
         },
         {
-            "comparison wrong way": true
+            "correct": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/var1",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "values not swapped correctly": true
@@ -295,10 +296,10 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ryan_hartman/submission",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "correct": true,
@@ -311,27 +312,27 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AG2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "uses command line arguments instead of scanner": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "increment of outer loop counter in inner loop": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/E",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AF",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "outer loop counter initialized to one": true
@@ -343,43 +344,44 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/dubois_conno/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AE",
-        109,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/insertion/submission",
+        0.005634819066967944,
         [
-            19,
-            90
+            0.003541087607597637,
+            0.002093731459370307
         ],
         {
             "not selection sort": true
         },
         {
-            "outer loop test off by one": true
+            "not selection sort": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/Q",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "missing outer loop increment": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ref1",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "arraylists are call by reference": true
@@ -392,10 +394,10 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AF2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AF",
-        55,
+        0.0003746467401556375,
         [
-            18,
-            37
+            0.0003210390462989876,
+            5.3607693856649874e-05
         ],
         {
             "outer loop counter initialized to one": true
@@ -408,10 +410,10 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/var2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
-        0,
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "values not swapped correctly": true
@@ -423,34 +425,35 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/F",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
-        0,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0,
         [
-            0,
-            0
+            0.0,
+            0.0
         ],
         {
             "uses command line arguments instead of scanner": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "increment of outer loop counter in inner loop": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AQ2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
-        4,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        0.0,
         [
-            2,
-            2
+            0.0,
+            0.0
         ],
         {
             "inner loop increment bad": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        false
+        true
     ]
 ]
