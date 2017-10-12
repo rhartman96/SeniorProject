@@ -1,0 +1,68 @@
+[
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/craven_matth/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/ryan_hartman/submission",
+        101,
+        [
+            26
+        ],
+        "Correct",
+        "Correct",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/dubois_conno/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/ryan_hartman/submission",
+        138,
+        [
+            31
+        ],
+        "Not selection sort",
+        "Correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/autry_john/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/gluck_jeremy/submission",
+        119,
+        [
+            32
+        ],
+        "Index out of bounds",
+        "Arraylists are call by reference",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/ryan_hartman/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/ryan_hartman/submission",
+        0,
+        [
+            0
+        ],
+        "Correct",
+        "Correct",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/nika/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/ryan_hartman/submission",
+        119,
+        [
+            16
+        ],
+        "Not selection sort",
+        "Correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/Submissions/cambron_chri/submission",
+        "/Users/andreleone/SeniorProject/Trace/fall2016_selection_sort/References/gluck_jeremy/submission",
+        134,
+        [
+            37
+        ],
+        "Empty Program",
+        "Arraylists are call by reference",
+        false
+    ]
+]

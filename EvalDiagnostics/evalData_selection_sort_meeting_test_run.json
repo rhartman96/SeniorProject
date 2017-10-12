@@ -1,0 +1,299 @@
+[
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/B",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/J",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/H",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/N",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/R",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/G",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Comparison wrong way",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/M",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/I",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/D",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "One error in loop bound",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/S",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/F",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "One error in inner loop",
+        "One error in inner loop",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/E",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "One error in loop bound",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/T",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/Q",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "missing outer loop increment",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ryan_hartman/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/ryan_hartman/submission",
+        0,
+        [
+            0
+        ],
+        "Correct",
+        "Correct",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/cambron_chri/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Empty Program",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/craven_matth/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/ASSUMED_CORRECT/W",
+        61,
+        [
+            22
+        ],
+        "Correct",
+        "Assummed to be correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/C",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Swap error",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/P",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Inner loop increment bad",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/A",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/nika/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/ryan_hartman/submission",
+        119,
+        [
+            16
+        ],
+        "Not selection sort",
+        "Correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/dubois_conno/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/ASSUMED_CORRECT/AI",
+        104,
+        [
+            17
+        ],
+        "Not selection sort",
+        "Assummed to be correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/autry_john/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/ASSUMED_CORRECT/Z",
+        62,
+        [
+            17
+        ],
+        "Index out of bounds",
+        "Assummed to be correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/K",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/U",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/O",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort/Submissions/ASSUMED_CORRECT/L",
+        "/Users/andreleone/SeniorProject/programs/selection_sort/References/AG",
+        0,
+        [
+            0
+        ],
+        "Assummed to be correct",
+        "One error in inner loop",
+        false
+    ]
+]

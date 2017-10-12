@@ -1,0 +1,2 @@
+Inner loop increment bad
+Values not swapped correctly

@@ -1,0 +1,23 @@
+
+To compile "ClassTransformation.java" and "ClassTransformation2.java" run the following (from within the /trace directory):
+
+javac -cp javassist.jar:./ instrument/ClassTransformation.java
+javac -cp javassist.jar:./ instrument/ClassTransformation2.java
+
+javac -cp javassist.jar:./ instrument/CallEditor.java
+
+
+To Convert the Class files:
+
+
+With Java Agent (Java Agent causes an error and I don't think it is needed?):
+java -cp ..:../javassist.jar:../ -javaagent:../agent/agent.jar instrument.ClassTransformation CLASSTOCONVERT
+
+
+Without Java Agent (executes fine as long as original class files are in ../instrument directory and this command is run from the /instrument directory):
+java -cp ..:../javassist.jar:../ instrument.ClassTransformation CLASSA CLASSB CLASSC
+
+
+
+To calculate the edit distance between two output data files (run from inside of the /analyze directory):
+java -cp .. analyze.Difference data1.txt data2.txt

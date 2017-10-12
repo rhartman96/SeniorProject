@@ -1,0 +1,310 @@
+[
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AF2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AF",
+        55,
+        [
+            18
+        ],
+        "outer loop counter initialized to one",
+        "outer loop counter initialized to one",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/ref1",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
+        0,
+        [
+            0
+        ],
+        "Arraylists are call by reference",
+        "Arraylists are call by reference",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/li1",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        0,
+        [
+            0
+        ],
+        "Inner loop increment bad\nValues not swapped correctly",
+        "Inner loop increment bad\nValues not swapped correctly",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/C",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Swap error",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AH2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AH",
+        67,
+        [
+            24
+        ],
+        "Comparison wrong way",
+        "Comparison wrong way",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/F",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Uses command line arguments instead of scanner",
+        "Uses command line arguments instead of scanner",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/ryan_hartman/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        0,
+        [
+            0
+        ],
+        "Correct",
+        "Correct",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AR2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AR",
+        272,
+        [
+            139
+        ],
+        "missing outer loop increment",
+        "missing outer loop increment",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AQ2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AR",
+        4,
+        [
+            2
+        ],
+        "Inner loop increment bad",
+        "missing outer loop increment",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/nika/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        119,
+        [
+            16
+        ],
+        "Not selection sort",
+        "Correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/E",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "outer loop counter initialized to one",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AG2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Uses command line arguments instead of scanner",
+        "Uses command line arguments instead of scanner",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/empty2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Empty Program",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/dubois_conno/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AE",
+        109,
+        [
+            19
+        ],
+        "Not selection sort",
+        "Outer loop test off by one",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/D",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Outer loop test off by one",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/Q",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "missing outer loop increment",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/AE2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        21,
+        [
+            10
+        ],
+        "Outer loop test off by one",
+        "Correct",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/var1",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
+        0,
+        [
+            0
+        ],
+        "Values not swapped correctly",
+        "Values not swapped correctly",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/cambron_chri/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Empty Program",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/var2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
+        0,
+        [
+            0
+        ],
+        "Values not swapped correctly",
+        "Values not swapped correctly",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/autry_john/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        78,
+        [
+            23
+        ],
+        "increment of outer loop counter in inner loop",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/bounds2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        67,
+        [
+            19
+        ],
+        "increment of outer loop counter in inner loop",
+        "increment of outer loop counter in inner loop",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/ref2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
+        0,
+        [
+            0
+        ],
+        "Arraylists are call by reference",
+        "Arraylists are call by reference",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/li2",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        0,
+        [
+            0
+        ],
+        "Inner loop increment bad\nValues not swapped correctly",
+        "Inner loop increment bad\nValues not swapped correctly",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/G",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Comparison wrong way",
+        "Uses command line arguments instead of scanner",
+        false
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/swap",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AD",
+        54,
+        [
+            18
+        ],
+        "Swap error",
+        "Swap error",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/craven_matth/submission",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        101,
+        [
+            26
+        ],
+        "Correct",
+        "Correct",
+        true
+    ],
+    [
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/Submissions/P",
+        "/Users/andreleone/SeniorProject/programs/selection_sort_calvin/References/AG",
+        0,
+        [
+            0
+        ],
+        "Inner loop increment bad",
+        "Uses command line arguments instead of scanner",
+        false
+    ]
+]
