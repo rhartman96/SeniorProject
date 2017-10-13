@@ -1,9 +1,12 @@
 import os.path
 import Cmd
 
-def javaClassFiles(classFiles, testCases, timeout, verbose, mainConfig=dict()):
+def javaClassFiles(classFilesTup, testCases, timeout, verbose, mainConfig=dict()):
 	outputTraceFileMap = dict()
-	for classFile in classFiles:
+	outputJavaFileMap = dict()
+	for f in range(len(classFilesTup[1])):
+		classFile = classFilesTup[1][f]
+		javaFile = classFilesTup[0][f]
 		
 		if(not classFile.endswith(".class")):
 			#this can't be a class file so skip it
@@ -35,6 +38,7 @@ def javaClassFiles(classFiles, testCases, timeout, verbose, mainConfig=dict()):
 						print("'retrace' set to false in the main.config file. Skipping generation of new trace file since it already exists for this test case.")
 					#the trace file already exists
 					outputTraceFileMap[testCaseNum][classFileDir] = outputFileName
+					outputJavaFileMap[classFileDir] = javaFile
 					testCaseNum += 1
 					continue
 
@@ -48,9 +52,10 @@ def javaClassFiles(classFiles, testCases, timeout, verbose, mainConfig=dict()):
 				print("Cmd Error: " + str(cmdErr))
 
 			outputTraceFileMap[testCaseNum][classFileDir] = outputFileName
+			outputJavaFileMap[classFileDir] = javaFile
 			testCaseNum += 1
 
-	return outputTraceFileMap
+	return outputTraceFileMap, outputJavaFileMap
 
 def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")

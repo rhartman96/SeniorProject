@@ -20,27 +20,28 @@ def recordBehaviors(submitted, reference, testCases, traceDir, timeout, verbose=
 
 	print("  Compiling .java files:", flush=True)
 	print("    Compiling submitted .java files...", flush=True)
-	compiledSubmitted, failedS = Compile.javaFiles(submitted, verbose, mainConfig) #returns list of absolute paths to .class files
-	print("      " + str(len(compiledSubmitted)) + " .java files compiled. " + str(len(failedS)) + " .java files failed to compile.")
+	compiledSubmittedTup, failedS = Compile.javaFiles(submitted, verbose, mainConfig) #returns list of absolute paths to .class files
+	print("      " + str(len(compiledSubmittedTup[1])) + " .java files compiled. " + str(len(failedS)) + " .java files failed to compile.")
 	print("    Compiling reference .java files...", flush=True)
-	compiledReference, failedR = Compile.javaFiles(reference, verbose, mainConfig) #returns list of absolute paths to .class files
-	print("      " + str(len(compiledReference)) + " .java files compiled. " + str(len(failedR)) + " .java files failed to compile.")
+	compiledReferenceTup, failedR = Compile.javaFiles(reference, verbose, mainConfig) #returns list of absolute paths to .class files
+	print("      " + str(len(compiledReferenceTup[1])) + " .java files compiled. " + str(len(failedR)) + " .java files failed to compile.")
 
 	print("  Instrumenting:", flush=True)
 	print("    Instrumenting compiled submitted class files...", flush=True)
-	Instrument.javaClassFiles(compiledSubmitted, traceDir, verbose, mainConfig) #modifys the class files
+	Instrument.javaClassFiles(compiledSubmittedTup[1], traceDir, verbose, mainConfig) #modifys the class files
 	print("    Instrumenting compiled reference class files...", flush=True)
-	Instrument.javaClassFiles(compiledReference, traceDir, verbose, mainConfig) #modifys the class files
+	Instrument.javaClassFiles(compiledReferenceTup[1], traceDir, verbose, mainConfig) #modifys the class files
 
 	print("  Executing:", flush=True)
 	print("    Executing Submitted...", flush=True)
-	submittedTraceFiles = RunFiles.javaClassFiles(compiledSubmitted, testCases, timeout, verbose, mainConfig) #runs the class files
+	submittedTraceFiles, submittedJavaFileMap = RunFiles.javaClassFiles(compiledSubmittedTup, testCases, timeout, verbose, mainConfig) #runs the class files
 	print("    Executing Reference...", flush=True)
-	referenceTraceFiles = RunFiles.javaClassFiles(compiledReference, testCases, timeout, verbose, mainConfig) #runs the class files
+	referenceTraceFiles, referenceJavaFileMap = RunFiles.javaClassFiles(compiledReferenceTup, testCases, timeout, verbose, mainConfig) #runs the class files
 
 	print("Finished recording behaviors", flush=True)
 	traceFiles = (submittedTraceFiles, referenceTraceFiles)
-	return traceFiles
+	javaFiles = (submittedJavaFileMap, referenceJavaFileMap)
+	return (javaFiles, traceFiles)
 
 def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")
@@ -57,7 +58,7 @@ def main():
 	reference = FileFinder.getAll(pathToReferences, ".java")
 	testCases = FileFinder.getAll(pathToTestCases, ".txt")
 
-	traceFiles = recordBehaviors(submitted, reference, testCases)
+	javaFiles, traceFiles = recordBehaviors(submitted, reference, testCases)
 
 	print(str(traceFiles))
 

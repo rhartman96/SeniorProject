@@ -8,6 +8,7 @@ import Cmd
 
 def javaFiles(filePaths, verbose=False, mainConfig=dict()):
 	successfullyCompiled = list()
+	successJavaFiles = list()
 	failed = list()
 
 	filePathsRefined = list()
@@ -42,16 +43,18 @@ def javaFiles(filePaths, verbose=False, mainConfig=dict()):
 				print("Recompile set to false in the main.config file, not recompiling since found preexisting class file.")
 			#the class file already exists
 			successfullyCompiled.append(classFilePath)
+			successJavaFiles.append(filePath)
 			continue
 
 		compileCmd = "javac " + str(filePath)
 		cmdOutput, cmdErr, cmdExitStatus = Cmd.runCmd(compileCmd, verbose)
 		if(cmdExitStatus == 0):
 			successfullyCompiled.append(classFilePath)
+			successJavaFiles.append(filePath)
 		else:
 			failed.append(filePath)
 
-	return (successfullyCompiled, failed)
+	return ((successJavaFiles, successfullyCompiled), failed)
 
 def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")
@@ -75,7 +78,7 @@ def main():
 	successfullyCompiled, failed = javaFiles(filePaths, verbose)
 
 	print("Successfully Compiled: ")
-	for successFilePath in successfullyCompiled:
+	for successFilePath in successfullyCompiled[0]:
 		print(str(successFilePath))
 
 	if(len(failed) > 0):

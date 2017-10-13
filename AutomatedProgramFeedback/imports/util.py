@@ -15,5 +15,8 @@ def cosin_sim(v, w):
 def cosin_dist(v, w):
     return 1.0 - cosin_sim(v, w)
 
+def getMagnitude(v):
+    return np.linalg.norm(v)
+
 def str2bool(v):
     return v.lower() in ("yes", "true", "1", "t")

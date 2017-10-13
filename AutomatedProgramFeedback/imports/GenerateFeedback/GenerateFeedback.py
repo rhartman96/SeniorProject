@@ -3,7 +3,8 @@ import sys
 sys.path.insert(0, '/root/SeniorProject/Automated Program Feedback/imports')
 import Cmd
 import util
-import Histogram
+import Distance
+import numpy as np
 
 def getName(filePath):
 	pathSplit = filePath.split("/")
@@ -18,9 +19,11 @@ def readResults(filePath):
 		return results
 	return ""
 
-def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, main_config = dict()):
+def generateFeedback(javaFiles, traceFiles, pathToProjectFolder, traceDir, verbose=False, main_config = dict()):
 	#generate the feedback
 	#INPUT
+	#javaFiles - Tuple of submitted and reference dicts
+		#Each map maps the class file dir to the java file
 	#traceFiles - Tuple of submitted and reference trace files
 		#submittedTraceFiles - Dict mapping test case # to username to absolute trace file location on disk
 		#referenceTraceFiles - Dict mapping test case # to username to absolute trace file location on disk
@@ -29,6 +32,7 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, m
 	#feedback - Dict mapping username to feedback
 	print("Generating Feedback", flush=True)
 	submittedTraceFiles, referenceTraceFiles = traceFiles
+	submittedJavaFiles, referenceJavaFiles = javaFiles
 
 	editDistanceMapping = {}
 	feedback = {}
@@ -47,22 +51,20 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, m
 				referencePathDict[referencePath] = True
 				referenceFileName = referenceTraceFiles[testcase][referencePath]
 				referenceFullPath = os.path.join(referencePath,referenceFileName)
-				if util.str2bool(main_config["histogram"]):
-					print("Doing the histogram stuff")
-					distanceAway = Histogram.get_distance(submittedFullPath, referenceFullPath, main_config)
-				else:
-					output, error, status = Cmd.runCmd("java -cp .. analyze.Difference "+submittedFullPath +" " + referenceFullPath, workingDir= traceDir + "/analyze", verbose=verbose)
-					distanceAway = int(output)
-
+				distanceVector = Distance.getDistance(traceDir, submittedFullPath, referenceFullPath, submittedJavaFiles[submittedPath], referenceJavaFiles[referencePath], main_config)
 				if not referencePath in editDistanceMapping[submittedPath]:
 					distList = list()
-					distList.append(distanceAway)
-					editDistanceMapping[submittedPath][referencePath] = (distanceAway, distList)
+					distList.append(distanceVector)
+					editDistanceMapping[submittedPath][referencePath] = (np.array(distanceVector), distList)
 				else:
 					oldDist, distList = editDistanceMapping[submittedPath][referencePath]
-					distList.append(distanceAway)
-					editDistanceMapping[submittedPath][referencePath] = (oldDist+distanceAway, distList)
+					distList.append(distanceVector)
+					editDistanceMapping[submittedPath][referencePath] = (oldDist+np.array(distanceVector), distList)
 	
+	#normalize the vectors and convert to a magnitude distance
+	for submittedPath in editDistanceMapping.keys():
+		editDistanceMapping[submittedPath] = normalize(editDistanceMapping[submittedPath], verbose)
+
 	#output the editDistanceMapping csv file
 	submittedPaths = list(submittedPathDict.keys())
 	referencePaths = list(referencePathDict.keys())
@@ -89,7 +91,7 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, m
 		for referencePath in editDistanceMapping[submittedPath]:
 			if editDistanceMapping[submittedPath][referencePath][0] < minDistance:
 				if(verbose):
-					print("Edit Distance: " + str(submittedPath) + " => " + str(referencePath) + ": " + str(editDistanceMapping[submittedPath][referencePath]))
+					print("Distance: " + str(submittedPath) + " => " + str(referencePath) + ": " + str(editDistanceMapping[submittedPath][referencePath]))
 				minDistance, distList = editDistanceMapping[submittedPath][referencePath]
 				minPath = referencePath
 
@@ -99,6 +101,50 @@ def generateFeedback(traceFiles, pathToProjectFolder, traceDir, verbose=False, m
 	print("Finished Generating Feedback")
 	return feedback
 
+def normalize(referenceMapToDistVectors, verbose):
+	#find the min and max value of each component
+	print()
+	print()
+	maxVector = None
+	minVector = None
+	for referencePath in referenceMapToDistVectors.keys():
+		vector = referenceMapToDistVectors[referencePath][0]
+		if(maxVector is None):
+			maxVector = np.copy(vector)
+		if(minVector is None):
+			minVector = np.copy(vector)
+		for i in range(len(vector)):
+			maxVector[i] = max(vector[i], maxVector[i])
+			minVector[i] = min(vector[i], minVector[i])
+	
+	if(verbose):
+		print("Min Vector: " + str(minVector))
+		print("Max Vector: " + str(maxVector))
+
+	for referencePath in referenceMapToDistVectors.keys():
+		#actually do the normalizing
+		vector, spot2 = referenceMapToDistVectors[referencePath]
+		for i in range(len(vector)):
+			top = (float(vector[i]) - float(minVector[i]))
+			bottom = (float(maxVector[i]) - float(minVector[i]))
+			if(bottom == 0):
+				vector[i] = 0
+				if(verbose):
+					print("Bottom of fraction was zero while normalizing! Top was: " + str(top))
+				continue
+			vector[i] = top / bottom #normalized between 0 and 1
+		
+		referenceMapToDistVectors[referencePath] = (vector, spot2)
+
+	#now convert the distance vectors to a single number (magnitude), also insert the weights
+	for referencePath in referenceMapToDistVectors.keys():
+		vector, spot2 = referenceMapToDistVectors[referencePath]
+		weights = Distance.getWeights()
+		print("Vector: " + str(vector))
+		print("Vector Weighted: " + str(vector*weights))
+		referenceMapToDistVectors[referencePath] = (util.getMagnitude(vector*weights), spot2)
+
+	return referenceMapToDistVectors
 
 def main():
 	#used for testing the generate feedback

@@ -20,7 +20,7 @@ public final class CallEditor extends ExprEditor {
    private static String CODE_GET = "System.out.print (\"; get; index=\");";
    private static String CODE_REMOVE = "System.out.print (\"; remove; index=\");";
    private static String CODE_ADD = "System.out.print (\"; add\");";
-   private static String CODE_ADD_VAL = "System.out.print (\"add; value=\");";
+   private static String CODE_ADD_VAL = "System.out.print (\" add; value=\");";
    private static String CODE_INDEX= "System.out.print ($1);";
    private static String CODE_SEP1 = "System.out.print (\"; array (AFTER) =\");";
    private static String CODE_SEP2 = "System.out.print (\"; array=\");";

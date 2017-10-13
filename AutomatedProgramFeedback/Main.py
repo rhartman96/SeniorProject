@@ -49,8 +49,8 @@ def main():
     reference = FileFinder.getAll(pathToReferences, ".java")
     testCases = FileFinder.getAll(pathToTestCases, ".txt")
 
-    traceFiles = RB.recordBehaviors(submitted, reference, testCases, traceDir, timeout, verbose, mainConfig)
-    feedback = GF.generateFeedback(traceFiles,pathToProjectFolder, traceDir, verbose, mainConfig)
+    javaFiles, traceFiles = RB.recordBehaviors(submitted, reference, testCases, traceDir, timeout, verbose, mainConfig)
+    feedback = GF.generateFeedback(javaFiles, traceFiles, pathToProjectFolder, traceDir, verbose, mainConfig)
     evaluation = None
     if comparePoints:
         evaluation = EF.hackerRank_scores(feedback, mainConfig, verbose)
