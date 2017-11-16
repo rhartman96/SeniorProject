@@ -4,14 +4,31 @@ sys.path.insert(0, "../")
 import util
 import Histogram
 import LineDistance
+import ExitStatusDistance
+import ExceptionTypeDistance
+import TimeoutDistance
+import ProgramOutputDistance
 import Cmd
 import numpy as np
 
 def getWeights():
-    lineDistWeight = 0.10
-    methodDistWeight = 0.20
-    editDistWeight = 1.0
-    return np.array([ lineDistWeight, methodDistWeight, editDistWeight ])
+    lineDistWeight = 0.0 # 2/28 on selection sort when run by itself (0.071) (THIS SEEMS TO HURT THE RESULTS)
+    methodDistWeight = 19.0 # 19/28 on selection sort when run by itself (0.679)
+    timeoutDistWeight = 0.0 # 6/28 on selection sort when run by itself (0.214) ** Not useful, reduntent with exit status
+    exitStatusDistWeight = 8.0 # 8/28 on selection sort when run by itself (0.286)
+    exceptionTypeDistWeight = 4.0 # 4/28 on selection sort when run by itself (0.143)
+    programOutputDistWeight = 18.0 # 18/28 on selection sort when run by itself (0.643)
+    editDistWeight = 0.0 # 20/28 on selection sort when run by itself (0.714)
+
+    # 15/28 with all of these metrics weighted accordingly (except program Output distance)
+    # 24/28 with all of these metrics weighted accordingly
+    # 23/28 with program output dist and edit dist weighted accordingly
+    # 24/28 with everything except edit distance!!! Much much faster!!
+    # 25/28 with everything except line Distance and edit distance !!!
+    # 21/28 with everything except line distance and program output distance
+    # 26/28 with everything except line distance, timeout dist, and edit dist
+
+    return np.array([ lineDistWeight, methodDistWeight, timeoutDistWeight, exitStatusDistWeight, exceptionTypeDistWeight, programOutputDistWeight, editDistWeight ])
 
 #calculate all the distance metrics, put them in a vector and compute cosine similarity
 def getDistance(traceDir, traceFileA, traceFileB, javaFileA, javaFileB, mainConfig):
@@ -24,23 +41,57 @@ def getDistance(traceDir, traceFileA, traceFileB, javaFileA, javaFileB, mainConf
         print("Trace file B: " + str(traceFileB))
 
     vector = list()
-    lineDistance = LineDistance.getDistance(javaFileA, javaFileB, mainConfig)
-    if(lineDistance < 0 and verbose):
-        print("There was a problem calculating line distance between " + str(javaFileA) + " and " + str(javaFileB) + ". Negative one was outputted as a distance.")
+    lineDistance = 0.0
+    if(getWeights()[0] > 0.0):
+        lineDistance = LineDistance.getDistance(javaFileA, javaFileB, mainConfig)
+        if(lineDistance < 0 and verbose):
+            print("There was a problem calculating line distance between " + str(javaFileA) + " and " + str(javaFileB) + ". Negative one was outputted as a distance.")
+        if(verbose):
+            print("Line Distance: " + str(lineDistance))
     vector.append(lineDistance) # Line Distance metric
-    if(verbose):
-        print("Line Distance: " + str(lineDistance))
     
-    methodDistance = Histogram.get_distance(traceFileA, traceFileB, mainConfig)
+    methodDistance = 0.0
+    if(getWeights()[1] > 0.0):
+        methodDistance = Histogram.get_distance(traceFileA, traceFileB, mainConfig)
+        if(verbose):
+            print("Method Distance: " + str(methodDistance))
     vector.append(methodDistance) # Method Distance metric
-    if(verbose):
-        print("Method Distance: " + str(methodDistance))
+    
+    timeoutDistance = 0.0
+    if(getWeights()[2] > 0.0):
+        timeoutDistance = TimeoutDistance.get_distance(traceFileA, traceFileB, mainConfig)
+        if(verbose):
+            print("Timeout Distance: " + str(timeoutDistance))
+    vector.append(timeoutDistance) # Timeout Distance metric
 
-    output, error, status = Cmd.runCmd("java -cp .. analyze.Difference "+ traceFileA + " " + traceFileB, workingDir= traceDir + "/analyze", verbose=verbose)
-    editDistance = int(output)
+    exitDistance = 0.0
+    if(getWeights()[3] > 0.0):
+        exitDistance = ExitStatusDistance.get_distance(traceFileA, traceFileB, mainConfig)
+        if(verbose):
+            print("Exit Status Distance: " + str(exitDistance))
+    vector.append(exitDistance) # Exit Status Distance metric
+
+    exceptionDistance = 0.0
+    if(getWeights()[4] > 0.0):
+        exceptionDistance = ExceptionTypeDistance.get_distance(traceFileA, traceFileB, mainConfig)
+        if(verbose):
+            print("Exception Type Distance: " + str(exceptionDistance))
+    vector.append(exceptionDistance) # Exception Distance metric
+
+    programOutputDistance = 0.0
+    if(getWeights()[5] > 0.0):
+        programOutputDistance = ProgramOutputDistance.get_distance(traceFileA, traceFileB, mainConfig)
+        if(verbose):
+            print("Program Output Distance: " + str(programOutputDistance))
+    vector.append(programOutputDistance) # Program Output Distance metric
+    
+    editDistance = 0.0
+    if(getWeights()[6] > 0.0):
+        output, error, status = Cmd.runCmd("java -cp .. analyze.Difference "+ traceFileA + " " + traceFileB, workingDir= traceDir + "/analyze", verbose=verbose)
+        editDistance = int(output)
+        if(verbose):
+            print("Edit Distance: " + str(editDistance))
     vector.append(editDistance)
-    if(verbose):
-        print("Edit Distance: " + str(editDistance))
 
     return vector
 

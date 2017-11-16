@@ -34,7 +34,7 @@ def main():
     if("traceDir" in mainConfig):
         traceDir = pathToProjectFolder + mainConfig["traceDir"]
     
-    timeout = 5 #5 second timeout for each test case run
+    timeout = 2 #2 second timeout for each test case run
     comparePoints = False
     if("compare_points" in mainConfig):
         comparePoints = str2bool(mainConfig["compare_points"])

@@ -3,7 +3,8 @@ import os
 import signal
 from threading import Timer
 
-def runCmd(cmd, verbose=False, workingDir=None, timeout=None):
+def runCmd(cmd, verbose=False, workingDir=None, timeout=None, timeoutStatusDict=dict()):
+	timeoutStatusDict["timeout"] = False
 	## call date command ##
 	p = None
 	if(workingDir):
@@ -16,7 +17,7 @@ def runCmd(cmd, verbose=False, workingDir=None, timeout=None):
 	err = None
 	p_status = -1
 	if(timeout):
-		(output, err) = runWithTimeout(p, timeout)
+		(output, err) = runWithTimeout(p, timeout, timeoutStatusDict)
 	else:
 		#Interact with process: Send data to stdin. Read data from stdout and stderr, until end-of-file is reached. Wait for process to terminate. The optional input argument should be a string to be sent to the child process, or None, if no data should be sent to the child.
 		(output, err) = p.communicate()
@@ -43,8 +44,8 @@ def runCmd(cmd, verbose=False, workingDir=None, timeout=None):
 	return (str(output), str(err), p_status)
 
 
-def runWithTimeout(proc, timeout_sec):
-  kill_proc = lambda p: killProc(p)
+def runWithTimeout(proc, timeout_sec, timeoutStatusDict=dict()):
+  kill_proc = lambda p: killProc(p, timeoutStatusDict)
   timer = Timer(timeout_sec, kill_proc, [proc])
   output = None
   err = None
@@ -56,5 +57,6 @@ def runWithTimeout(proc, timeout_sec):
 
   return (output, err)
 
-def killProc(proc):
+def killProc(proc, timeoutStatusDict=dict()):
 	os.killpg(os.getpgid(proc.pid), signal.SIGTERM)  # Send the signal to all the process groups
+	timeoutStatusDict["timeout"] = True

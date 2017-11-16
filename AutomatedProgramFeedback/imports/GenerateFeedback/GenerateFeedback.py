@@ -132,7 +132,7 @@ def normalize(referenceMapToDistVectors, verbose):
 				if(verbose):
 					print("Bottom of fraction was zero while normalizing! Top was: " + str(top))
 				continue
-			vector[i] = top / bottom #normalized between 0 and 1
+			vector[i] = (top / bottom) * 100 #normalized between 0 and 1
 		
 		referenceMapToDistVectors[referencePath] = (vector, spot2)
 
