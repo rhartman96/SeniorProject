@@ -1,0 +1,204 @@
+CONCLUSION (data1-02): normal termination;   0.243 seconds, 110592 max kilobytes
+CONCLUSION (data1-03): normal termination;   0.242 seconds, 110672 max kilobytes
+CONCLUSION (data1-04): normal termination;   0.237 seconds, 110592 max kilobytes
+CONCLUSION (data1-05): cpu time limit exceeded (2 secs)
+CONCLUSION (data1-06): normal termination;   0.095 seconds, 113584 max kilobytes
+CONCLUSION (data1-07): normal termination;   0.198 seconds, 104096 max kilobytes
+CONCLUSION (data1-08): normal termination;   0.243 seconds, 104048 max kilobytes
+CONCLUSION (data1-09): normal termination;   0.240 seconds, 110816 max kilobytes
+CONCLUSION (data1-10): normal termination;   0.239 seconds, 103824 max kilobytes
+CONCLUSION (data1-11): normal termination;   0.242 seconds, 104688 max kilobytes
+CONCLUSION (data1-12): normal termination;   0.239 seconds, 118784 max kilobytes
+CONCLUSION (data1-13): normal termination;   0.254 seconds, 118896 max kilobytes
+CONCLUSION (data1-14): cpu time limit exceeded (2 secs)
+CONCLUSION (data1-15): normal termination;   0.096 seconds, 103728 max kilobytes
+CONCLUSION (data1-16): normal termination;   0.175 seconds, 103680 max kilobytes
+CONCLUSION (data1-17): normal termination;   0.243 seconds, 110592 max kilobytes
+CONCLUSION (data1-18): normal termination;   0.241 seconds, 118864 max kilobytes
+CONCLUSION (data2-02): normal termination;   0.249 seconds, 104144 max kilobytes
+CONCLUSION (data2-03): normal termination;   0.250 seconds, 110576 max kilobytes
+CONCLUSION (data2-04): normal termination;   0.242 seconds, 134784 max kilobytes
+CONCLUSION (data2-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data2-06): cpu time limit exceeded (2 secs)
+CONCLUSION (data2-07): normal termination;   0.098 seconds, 112752 max kilobytes
+CONCLUSION (data2-08): normal termination;   0.098 seconds, 104080 max kilobytes
+CONCLUSION (data2-09): normal termination;   0.100 seconds, 104608 max kilobytes
+CONCLUSION (data2-10): normal termination;   0.241 seconds, 105008 max kilobytes
+CONCLUSION (data2-11): cpu time limit exceeded (2 secs)
+CONCLUSION (data2-12): normal termination;   0.265 seconds, 105392 max kilobytes
+CONCLUSION (data2-13): normal termination;   0.296 seconds, 110624 max kilobytes
+CONCLUSION (data2-14): normal termination;   0.247 seconds, 104832 max kilobytes
+CONCLUSION (data2-15): cpu time limit exceeded (2 secs)
+CONCLUSION (data2-16): normal termination;   0.094 seconds, 118880 max kilobytes
+CONCLUSION (data2-17): normal termination;   0.099 seconds, 104064 max kilobytes
+CONCLUSION (data2-18): normal termination;   0.106 seconds, 110592 max kilobytes
+CONCLUSION (data3-02): normal termination;   0.240 seconds, 110784 max kilobytes
+CONCLUSION (data3-03): normal termination;   0.241 seconds, 118896 max kilobytes
+CONCLUSION (data3-04): normal termination;   0.241 seconds, 118752 max kilobytes
+CONCLUSION (data3-05): cpu time limit exceeded (2 secs)
+CONCLUSION (data3-06): normal termination;   0.095 seconds, 111984 max kilobytes
+CONCLUSION (data3-07): normal termination;   0.094 seconds, 118848 max kilobytes
+CONCLUSION (data3-08): normal termination;   0.248 seconds, 112416 max kilobytes
+CONCLUSION (data3-09): normal termination;   0.239 seconds, 118752 max kilobytes
+CONCLUSION (data3-10): normal termination;   0.240 seconds, 110656 max kilobytes
+CONCLUSION (data3-11): normal termination;   0.241 seconds, 110624 max kilobytes
+CONCLUSION (data3-12): cpu time limit exceeded (2 secs)
+CONCLUSION (data3-13): normal termination;   0.244 seconds, 105296 max kilobytes
+CONCLUSION (data3-14): cpu time limit exceeded (2 secs)
+CONCLUSION (data3-15): normal termination;   0.095 seconds, 117456 max kilobytes
+CONCLUSION (data3-16): normal termination;   0.095 seconds, 118944 max kilobytes
+CONCLUSION (data3-17): normal termination;   0.238 seconds, 117984 max kilobytes
+CONCLUSION (data3-18): normal termination;   0.248 seconds, 105008 max kilobytes
+CONCLUSION (data4-02): normal termination;   0.242 seconds, 118512 max kilobytes
+CONCLUSION (data4-03): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data4-04): normal termination;   0.244 seconds, 110704 max kilobytes
+CONCLUSION (data4-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data4-06): cpu time limit exceeded (2 secs)
+CONCLUSION (data4-07): normal termination;   0.095 seconds, 104512 max kilobytes
+CONCLUSION (data4-08): normal termination;   0.242 seconds, 110688 max kilobytes
+CONCLUSION (data4-09): normal termination;   0.249 seconds, 104480 max kilobytes
+CONCLUSION (data4-10): normal termination;   0.251 seconds, 104080 max kilobytes
+CONCLUSION (data4-11): cpu time limit exceeded (2 secs)
+CONCLUSION (data4-12): normal termination;   0.096 seconds, 104320 max kilobytes
+CONCLUSION (data4-13): normal termination;   0.096 seconds, 118832 max kilobytes
+CONCLUSION (data4-14): normal termination;   0.240 seconds, 104576 max kilobytes
+CONCLUSION (data4-15): cpu time limit exceeded (2 secs)
+CONCLUSION (data4-16): normal termination;   0.245 seconds, 118784 max kilobytes
+CONCLUSION (data4-17): normal termination;   0.244 seconds, 106144 max kilobytes
+CONCLUSION (data4-18): normal termination;   0.243 seconds, 118768 max kilobytes
+CONCLUSION (data5-02): normal termination;   0.245 seconds, 110704 max kilobytes
+CONCLUSION (data5-03): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-04): normal termination;   0.096 seconds, 111952 max kilobytes
+CONCLUSION (data5-05): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-06): normal termination;   0.097 seconds, 118752 max kilobytes
+CONCLUSION (data5-07): normal termination;   0.096 seconds, 103680 max kilobytes
+CONCLUSION (data5-08): normal termination;   0.200 seconds, 111808 max kilobytes
+CONCLUSION (data5-09): normal termination;   0.258 seconds, 105680 max kilobytes
+CONCLUSION (data5-10): normal termination;   0.271 seconds, 114016 max kilobytes
+CONCLUSION (data5-11): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-12): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-13): normal termination;   0.240 seconds, 110576 max kilobytes
+CONCLUSION (data5-14): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-15): cpu time limit exceeded (2 secs)
+CONCLUSION (data5-16): normal termination;   0.096 seconds, 117552 max kilobytes
+CONCLUSION (data5-17): normal termination;   0.244 seconds, 112144 max kilobytes
+CONCLUSION (data5-18): normal termination;   0.251 seconds, 110896 max kilobytes
+CONCLUSION (data6-02): normal termination;   0.245 seconds, 103664 max kilobytes
+CONCLUSION (data6-03): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data6-04): normal termination;   0.243 seconds, 104112 max kilobytes
+CONCLUSION (data6-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data6-06): cpu time limit exceeded (2 secs)
+CONCLUSION (data6-07): normal termination;   0.099 seconds, 104304 max kilobytes
+CONCLUSION (data6-08): normal termination;   0.096 seconds, 104960 max kilobytes
+CONCLUSION (data6-09): normal termination;   0.263 seconds, 103984 max kilobytes
+CONCLUSION (data6-10): normal termination;   0.245 seconds, 104224 max kilobytes
+CONCLUSION (data6-11): normal termination;   0.245 seconds, 103952 max kilobytes
+CONCLUSION (data6-12): normal termination;   0.255 seconds, 105568 max kilobytes
+CONCLUSION (data6-13): normal termination;   0.245 seconds, 118336 max kilobytes
+CONCLUSION (data6-14): normal termination;   0.242 seconds, 110592 max kilobytes
+CONCLUSION (data6-15): cpu time limit exceeded (2 secs)
+CONCLUSION (data6-16): normal termination;   0.098 seconds, 111840 max kilobytes
+CONCLUSION (data6-17): normal termination;   0.219 seconds, 110752 max kilobytes
+CONCLUSION (data6-18): normal termination;   0.257 seconds, 112304 max kilobytes
+CONCLUSION (data8-02): normal termination;   0.240 seconds, 110752 max kilobytes
+CONCLUSION (data8-03): normal termination;   0.243 seconds, 111136 max kilobytes
+CONCLUSION (data8-04): normal termination;   0.249 seconds, 118864 max kilobytes
+CONCLUSION (data8-05): normal termination;   0.247 seconds, 110752 max kilobytes
+CONCLUSION (data8-06): normal termination;   0.244 seconds, 104064 max kilobytes
+CONCLUSION (data8-07): normal termination;   0.247 seconds, 112288 max kilobytes
+CONCLUSION (data8-08): normal termination;   0.243 seconds, 103680 max kilobytes
+CONCLUSION (data8-09): normal termination;   0.249 seconds, 105216 max kilobytes
+CONCLUSION (data8-10): normal termination;   0.246 seconds, 104160 max kilobytes
+CONCLUSION (data8-11): normal termination;   0.250 seconds, 104768 max kilobytes
+CONCLUSION (data8-12): normal termination;   0.099 seconds, 110672 max kilobytes
+CONCLUSION (data8-13): normal termination;   0.097 seconds, 105072 max kilobytes
+CONCLUSION (data8-14): cpu time limit exceeded (2 secs)
+CONCLUSION (data8-15): normal termination;   0.096 seconds, 118832 max kilobytes
+CONCLUSION (data8-16): normal termination;   0.152 seconds, 112304 max kilobytes
+CONCLUSION (data8-17): normal termination;   0.246 seconds, 111920 max kilobytes
+CONCLUSION (data8-18): normal termination;   0.250 seconds, 104080 max kilobytes
+CONCLUSION (data9-02): normal termination;   0.243 seconds, 118880 max kilobytes
+CONCLUSION (data9-03): normal termination;   0.243 seconds, 111760 max kilobytes
+CONCLUSION (data9-04): normal termination;   0.243 seconds, 118768 max kilobytes
+CONCLUSION (data9-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (data9-06): cpu time limit exceeded (2 secs)
+CONCLUSION (data9-07): normal termination;   0.101 seconds, 118864 max kilobytes
+CONCLUSION (data9-08): normal termination;   0.098 seconds, 105168 max kilobytes
+CONCLUSION (data9-09): normal termination;   0.242 seconds, 110560 max kilobytes
+CONCLUSION (data9-10): normal termination;   0.247 seconds, 104656 max kilobytes
+CONCLUSION (data9-11): normal termination;   0.244 seconds, 105024 max kilobytes
+CONCLUSION (data9-12): normal termination;   0.251 seconds, 119552 max kilobytes
+CONCLUSION (data9-13): normal termination;   0.247 seconds, 112080 max kilobytes
+CONCLUSION (data9-14): normal termination;   0.251 seconds, 118768 max kilobytes
+CONCLUSION (data9-15): cpu time limit exceeded (2 secs)
+CONCLUSION (data9-16): normal termination;   0.126 seconds, 119088 max kilobytes
+CONCLUSION (data9-17): normal termination;   0.286 seconds, 103968 max kilobytes
+CONCLUSION (data9-18): normal termination;   0.245 seconds, 112832 max kilobytes
+CONCLUSION (dataA-02): normal termination;   0.290 seconds, 104000 max kilobytes
+CONCLUSION (dataA-03): normal termination;   0.263 seconds, 117904 max kilobytes
+CONCLUSION (dataA-04): normal termination;   0.262 seconds, 118912 max kilobytes
+CONCLUSION (dataA-05): normal termination;   0.261 seconds, 110544 max kilobytes
+CONCLUSION (dataA-06): normal termination;   0.238 seconds, 110816 max kilobytes
+CONCLUSION (dataA-07): normal termination;   0.241 seconds, 111232 max kilobytes
+CONCLUSION (dataA-08): normal termination;   0.244 seconds, 110352 max kilobytes
+CONCLUSION (dataA-09): normal termination;   0.236 seconds, 118848 max kilobytes
+CONCLUSION (dataA-10): normal termination;   0.239 seconds, 110592 max kilobytes
+CONCLUSION (dataA-11): normal termination;   0.237 seconds, 110752 max kilobytes
+CONCLUSION (dataA-12): normal termination;   0.240 seconds, 104192 max kilobytes
+CONCLUSION (dataA-13): normal termination;   0.238 seconds, 110640 max kilobytes
+CONCLUSION (dataA-14): normal termination;   0.237 seconds, 119120 max kilobytes
+CONCLUSION (dataA-15): normal termination;   0.241 seconds, 112800 max kilobytes
+CONCLUSION (dataA-16): normal termination;   0.241 seconds, 118896 max kilobytes
+CONCLUSION (dataA-17): normal termination;   0.094 seconds, 118560 max kilobytes
+CONCLUSION (dataA-18): normal termination;   0.238 seconds, 104192 max kilobytes
+CONCLUSION (dataB-02): normal termination;   0.242 seconds, 111904 max kilobytes
+CONCLUSION (dataB-03): normal termination;   0.237 seconds, 110560 max kilobytes
+CONCLUSION (dataB-04): normal termination;   0.237 seconds, 110304 max kilobytes
+CONCLUSION (dataB-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (dataB-06): normal termination;   0.242 seconds, 104048 max kilobytes
+CONCLUSION (dataB-07): normal termination;   0.241 seconds, 103984 max kilobytes
+CONCLUSION (dataB-08): normal termination;   0.237 seconds, 118448 max kilobytes
+CONCLUSION (dataB-09): normal termination;   0.247 seconds, 105584 max kilobytes
+CONCLUSION (dataB-10): normal termination;   0.240 seconds, 110592 max kilobytes
+CONCLUSION (dataB-11): cpu time limit exceeded (2 secs)
+CONCLUSION (dataB-12): normal termination;   0.094 seconds, 110960 max kilobytes
+CONCLUSION (dataB-13): normal termination;   0.096 seconds, 112800 max kilobytes
+CONCLUSION (dataB-14): normal termination;   0.237 seconds, 110640 max kilobytes
+CONCLUSION (dataB-15): cpu time limit exceeded (2 secs)
+CONCLUSION (dataB-16): normal termination;   0.095 seconds, 111184 max kilobytes
+CONCLUSION (dataB-17): normal termination;   0.095 seconds, 104144 max kilobytes
+CONCLUSION (dataB-18): normal termination;   0.240 seconds, 104432 max kilobytes
+CONCLUSION (dataC-02): normal termination;   0.241 seconds, 103744 max kilobytes
+CONCLUSION (dataC-03): normal termination;   0.237 seconds, 118768 max kilobytes
+CONCLUSION (dataC-04): normal termination;   0.243 seconds, 113488 max kilobytes
+CONCLUSION (dataC-05): runtime error; check standard-error stream, perhaps?
+CONCLUSION (dataC-06): normal termination;   0.238 seconds, 110592 max kilobytes
+CONCLUSION (dataC-07): normal termination;   0.239 seconds, 110896 max kilobytes
+CONCLUSION (dataC-08): normal termination;   0.239 seconds, 104272 max kilobytes
+CONCLUSION (dataC-09): normal termination;   0.240 seconds, 104880 max kilobytes
+CONCLUSION (dataC-10): normal termination;   0.241 seconds, 110688 max kilobytes
+CONCLUSION (dataC-11): normal termination;   0.240 seconds, 104000 max kilobytes
+CONCLUSION (dataC-12): normal termination;   0.244 seconds, 104080 max kilobytes
+CONCLUSION (dataC-13): normal termination;   0.241 seconds, 104848 max kilobytes
+CONCLUSION (dataC-14): normal termination;   0.239 seconds, 118832 max kilobytes
+CONCLUSION (dataC-15): normal termination;   0.236 seconds, 110432 max kilobytes
+CONCLUSION (dataC-16): normal termination;   0.236 seconds, 110592 max kilobytes
+CONCLUSION (dataC-17): normal termination;   0.238 seconds, 110688 max kilobytes
+CONCLUSION (dataC-18): normal termination;   0.239 seconds, 118992 max kilobytes
+CONCLUSION (dataD-02): normal termination;   0.239 seconds, 118864 max kilobytes
+CONCLUSION (dataD-03): normal termination;   0.238 seconds, 110736 max kilobytes
+CONCLUSION (dataD-04): normal termination;   0.239 seconds, 110688 max kilobytes
+CONCLUSION (dataD-05): cpu time limit exceeded (2 secs)
+CONCLUSION (dataD-06): normal termination;   0.095 seconds, 104176 max kilobytes
+CONCLUSION (dataD-07): normal termination;   0.105 seconds, 127056 max kilobytes
+CONCLUSION (dataD-08): normal termination;   0.107 seconds, 112352 max kilobytes
+CONCLUSION (dataD-09): normal termination;   0.241 seconds, 110672 max kilobytes
+CONCLUSION (dataD-10): normal termination;   0.208 seconds, 110640 max kilobytes
+CONCLUSION (dataD-11): cpu time limit exceeded (2 secs)
+CONCLUSION (dataD-12): cpu time limit exceeded (2 secs)
+CONCLUSION (dataD-13): normal termination;   0.094 seconds, 119024 max kilobytes
+CONCLUSION (dataD-14): cpu time limit exceeded (2 secs)
+CONCLUSION (dataD-15): cpu time limit exceeded (2 secs)
+CONCLUSION (dataD-16): normal termination;   0.099 seconds, 112192 max kilobytes
+CONCLUSION (dataD-17): normal termination;   0.096 seconds, 104096 max kilobytes
+CONCLUSION (dataD-18): normal termination;   0.243 seconds, 104048 max kilobytes

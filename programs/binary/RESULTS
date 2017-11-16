@@ -1,0 +1,30 @@
+Binary03.java
+data5-03   wrong output; trace distance 248; first diff after 2 steps, subst: the get index is wrong at lne 19
+
+Binary04.java
+data2-04   wrong output; trace distance 3; delete "get" at line 23   -- not helpful
+
+Binary05.java
+data5-05   wrong output; trace distance 248; first diff after 0 steps, subst: the get index is wrong at line 25
+
+Binary06.java
+data2-06   wrong output; trace distance 250; first diff after 0 steps, subst:  the get index is wrong at line 23
+data4-06   wrong output; trace distance 248; first diff after 2 steps, subst:  the get index is wrong at line 23
+data6-06   wrong output; trace distance 248; first diff after 2 steps, subst:  the get index is wrong at line 23
+  line 23 is  "if data.get(mid)==v)"  the first use of the local variable 'mid'; suggesting 'mid' is computed wrong
+
+Binary08.java
+data1-08   wrong output; trace distance 0
+data2-08   wrong output; trace distance 3;  first diff after 1 step, insertion into bad trace (so no line number)
+data6-08   wrong output; trace distance 5;  first diff aftet 1 step, isertion into bad trace (so no line number)
+
+Binary11.java
+data2-11   wrong output; trace distance 244; first diff after 2 steps, delete: the line number 23
+data4-11   wrong output; trace distance 244; first diff after 4 steps, delete: the line number 23
+data5-11   wrong output; trace distance 246; first diff after 4 steps, insert into bad trace (so no line number)
+
+Binary12.java
+data3-12   wrong output; trace distance 244; first diff after 4 steps, delete: line number 23
+data5-12   wrong answer; trace distnace 242; first diff after 8 steps, delete: line number 23
+
+

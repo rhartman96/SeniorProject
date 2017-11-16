@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 15, Size: 13
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at data.binary.Binary05.search(Binary05.java:25)
+	at data.binary.Binary05.search(Binary05.java:11)
+	at data.binary.Binary05.main(Binary05.java:49)

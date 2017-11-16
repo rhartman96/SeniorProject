@@ -1,0 +1,55 @@
+INTERNAL INFORMATION:
+  Tue,  9 August 2016, 15:50:16, EDT
+  2016-08-09T19:50:16Z
+  cs-compute; Linux 3.13.0-92-generic; x86_64
+  cwd=/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases
+  PATH environment variable:
+  /Users/ryan/software/bin:/Users/ryan/courses/scripts:/usr/bin:/bin
+  verbose=4; time limit=2 (seconds)
+  all command line arguments:
+    argv[0]=/Users/ryan/utility_programs/bin/x86_64/run
+    argv[1]=-v
+    argv[2]=4
+    argv[3]=-t
+    argv[4]=2
+    argv[5]=-c
+    argv[6]=data1
+    argv[7]=-i
+    argv[8]=test.input
+    argv[9]=-x
+    argv[10]=java
+    argv[11]=--
+    argv[12]=-ea
+    argv[13]=-cp
+    argv[14]=../../..
+    argv[15]=data.binary.Binary05
+INTERNAL INFORMATION:
+  dpath=.
+  cfile=data1
+  ifile=test.input
+  ofile=./data1.out
+  efile=./data1.err
+  lfile=./data1.run
+  afile=(null)
+  exec=java
+INTERNAL INFORMATION:
+  command & args to run:  java  '-ea'  '-cp'  '../../..'  'data.binary.Binary05'
+  standard input  < test.input
+  standard output > ./data1.out
+  standard error  > ./data1.err
+RESOURCE LIMITS INFORMATION:
+  AS              (infinite)  (infinite) bytes
+  CPU                      2           4 seconds
+  CORE                     0           0 bytes
+  DATA            (infinite)  (infinite) bytes
+  NOFILE                  90         100 
+  FSIZE               100000      100000 bytes
+  STACK              8388608  (infinite) bytes
+RESOURCE USAGE:
+  user time:        1.978 seconds
+  system time:      0.028 seconds
+  total time:       2.006 seconds
+  major/minor page faults: 0, 4469
+  maximum resident set size:  118592 kilobytes
+TERMINATION: abnormal. Signal = 24, CPU time limit exceeded
+CONCLUSION (java): cpu time limit exceeded (2 secs)

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem name="binary">
+  <case name="data1">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data1.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data1.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data2">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data2.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data2.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data3">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data3.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data3.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data4">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data4.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data4.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data5">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data5.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data5.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data6">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data6.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data6.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data8">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data8.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data8.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="data9">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data9.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/data9.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="dataA">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataA.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataA.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="dataB">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataB.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataB.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="dataC">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataC.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataC.sol" />
+    <options>tokenize</options>
+  </case>
+  <case name="dataD">
+    <stdin  name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataD.inp" />
+    <stdout name="/mnt/cs-files/Users/ryan/projects/trace/data/binary/testcases/dataD.sol" />
+    <options>tokenize</options>
+  </case>
+</problem>
