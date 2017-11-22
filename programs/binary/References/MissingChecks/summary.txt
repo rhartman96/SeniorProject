@@ -1,0 +1,1 @@
+missing checks to see if the correct number is present as the recursion happens
