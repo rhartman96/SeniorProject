@@ -1,9 +1,9 @@
-package data.binary;
+//package data.binary;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public final class Binary10 {
+public final class Binary06 {
 
    public static int search (final int v, final ArrayList<Integer> data) {
       return search (v, data, 0, data.size());
@@ -19,7 +19,7 @@ public final class Binary10 {
       assert 0<=last && last<=data.size();
       int low = first, high = last-1;
       while (low <= high) {
-         final int mid = (low+high+1)/2;
+         final int mid = (2+low+high)/3;
          if (data.get(mid) == v) {
             return mid;    // EXIT; v found
          } else if (data.get(mid) < v) {

@@ -1,9 +1,9 @@
-package data.binary;
+//package data.binary;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public final class Binary15 {
+public final class Binary16 {
 
    public static int search (final int v, final ArrayList<Integer> data) {
       return search (v, data, 0, data.size());
@@ -25,12 +25,12 @@ public final class Binary15 {
          } else if (data.get(mid) < v) {
             //System.out.printf ("data[%d]=%d is too low%n", mid, data[mid]);
             // Everything from 'low' to 'mid' is excluded.
-            // low = mid+1;  BUG BUG
+            high = mid-1;  // BUG BUG
          } else {
             assert data.get(mid) > v;
             //System.out.printf ("data[%d]=%d is too high%n", mid, data.get(mid));
             // Everything from 'mid' to 'high' is excluded.
-            high = mid-1;
+            low = mid+1;  // BUG BUG
          }
       }
       return -1;  // v not found

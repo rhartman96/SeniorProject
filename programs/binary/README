@@ -12,7 +12,9 @@
 13:  Off by one error (line 33)
 14:  Omitted line 33
 15:  Omitted line 28
+16:  High and low updates swapped
 17:  Just one get per iteration; but correct
+18:  Correct
 
 DATA1	:= 1    1 2 3 4 5 6 7 8 9
 DATA2	:= 10   1 2 3 4 5 6 7 8 9 10

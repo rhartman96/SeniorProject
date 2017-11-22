@@ -1,9 +1,11 @@
-package data.binary;
+//package data.binary;
+
+// inconsequencial change in the order of checking the midpoint
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public final class Binary08 {
+public final class Binary07 {
 
    public static int search (final int v, final ArrayList<Integer> data) {
       return search (v, data, 0, data.size());
@@ -20,17 +22,17 @@ public final class Binary08 {
       int low = first, high = last-1;
       while (low <= high) {
          final int mid = (low+high)>>>1;  // works even when + overflows
-         if (data.get(mid) <= v) {        //  BUG BUG BUG
-            //System.out.printf ("data[%d]=%d is too low%n", mid, data.get(mid));
+         if (data.get(mid) < v) {
+            //System.out.printf ("data[%d]=%d is too low%n", mid, data[mid]);
             // Everything from 'low' to 'mid' is excluded.
             low = mid+1;
-         } else if (data.get(mid) > v) {
-            //System.out.printf ("data[%d]=%d is too high%n", mid, data.get(mid));
+         } else if (data.get (mid) > v) {
+                     //System.out.printf ("data[%d]=%d is too high%n", mid, data.get(mid));
             // Everything from 'mid' to 'high' is excluded.
             high = mid-1;
          } else {
             return mid;    // EXIT; v found
-      }
+         }
       }
       return -1;  // v not found
    }

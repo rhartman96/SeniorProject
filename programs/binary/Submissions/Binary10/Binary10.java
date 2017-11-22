@@ -1,9 +1,9 @@
-package data.binary;
+//package data.binary;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public final class Binary11 {
+public final class Binary10 {
 
    public static int search (final int v, final ArrayList<Integer> data) {
       return search (v, data, 0, data.size());
@@ -19,13 +19,13 @@ public final class Binary11 {
       assert 0<=last && last<=data.size();
       int low = first, high = last-1;
       while (low <= high) {
-         final int mid = (low+high)>>>1;  // works even when + overflows
+         final int mid = (low+high+1)/2;
          if (data.get(mid) == v) {
             return mid;    // EXIT; v found
          } else if (data.get(mid) < v) {
             //System.out.printf ("data[%d]=%d is too low%n", mid, data[mid]);
             // Everything from 'low' to 'mid' is excluded.
-            low = mid;   //BUG 
+            low = mid+1;
          } else {
             assert data.get(mid) > v;
             //System.out.printf ("data[%d]=%d is too high%n", mid, data.get(mid));

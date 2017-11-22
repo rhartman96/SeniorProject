@@ -1,4 +1,4 @@
-package data.binary;
+//package data.binary;
 
 // Bad midpoint calculation
 
