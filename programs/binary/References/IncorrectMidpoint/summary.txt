@@ -1,1 +1,1 @@
-incorrect midpoint calculation
+Bad midpoint computation

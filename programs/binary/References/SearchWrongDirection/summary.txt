@@ -1,1 +1,1 @@
-greater than or less than is reversed when determining which direction to search
+Wrong comparison test

@@ -1,3 +1,16 @@
+REFERENCE:
+
+1. Correct
+2. Bad midpoint computation
+3. Index out of bounds
+4. Correct Java Solution
+5. Linear Search
+6. Missing Checks
+7. Missing Not Found Base Case
+8. Search Wrong Direction
+
+
+SUBMITTED:
 02:  Correctly implemented binary search                     "CORRECT"
 03:  Bad midpoint computation (line 18)
 04:  Initialization error (line 20)
