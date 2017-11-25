@@ -1,0 +1,95 @@
+Fall 2017, CSE1002
+Extra Assignment: Where is Watson?
+run.csh; Wed Nov 22 19:04:21 EST 2017
+Justyn Diaz submitted on Mon, 20 Nov 2017, at 10:30 AM EST
+Problem where.  Jar of test cases: /home/cse1002-stansifer/fall2017/ex_where/testing/testcases-where.jar
+
+Run Summary
+CONCLUSION (where-000): normal termination;   0.234 seconds, 101056 max kilobytes
+CONCLUSION (where-100): normal termination;   0.245 seconds, 98976 max kilobytes
+CONCLUSION (where-101): normal termination;   0.251 seconds, 100816 max kilobytes
+CONCLUSION (where-102): normal termination;   0.244 seconds, 101040 max kilobytes
+CONCLUSION (where-103): normal termination;   0.240 seconds, 96064 max kilobytes
+CONCLUSION (where-104): normal termination;   0.249 seconds, 100416 max kilobytes
+CONCLUSION (where-105): normal termination;   0.237 seconds, 101056 max kilobytes
+CONCLUSION (where-106): normal termination;   0.244 seconds, 99728 max kilobytes
+CONCLUSION (where-107): normal termination;   0.240 seconds, 97696 max kilobytes
+CONCLUSION (where-108): normal termination;   0.240 seconds, 96528 max kilobytes
+CONCLUSION (where-109): normal termination;   0.241 seconds, 89408 max kilobytes
+CONCLUSION (where-110): normal termination;   0.241 seconds, 100432 max kilobytes
+CONCLUSION (where-111): normal termination;   0.240 seconds, 96912 max kilobytes
+CONCLUSION (where-112): normal termination;   0.252 seconds, 101184 max kilobytes
+CONCLUSION (where-113): normal termination;   0.244 seconds, 100736 max kilobytes
+CONCLUSION (where-114): normal termination;   0.242 seconds, 101072 max kilobytes
+CONCLUSION (where-115): normal termination;   0.244 seconds, 96400 max kilobytes
+CONCLUSION (where-116): normal termination;   0.243 seconds, 99296 max kilobytes
+CONCLUSION (where-117): normal termination;   0.247 seconds, 96512 max kilobytes
+CONCLUSION (where-118): normal termination;   0.244 seconds, 93264 max kilobytes
+CONCLUSION (where-119): normal termination;   0.272 seconds, 110416 max kilobytes
+CONCLUSION (where-120): normal termination;   0.264 seconds, 105600 max kilobytes
+CONCLUSION (where-200): normal termination;   0.346 seconds, 112080 max kilobytes
+CONCLUSION (where-201): normal termination;   0.400 seconds, 106176 max kilobytes
+CONCLUSION (where-202): normal termination;   0.412 seconds, 101072 max kilobytes
+CONCLUSION (where-203): normal termination;   0.406 seconds, 112624 max kilobytes
+CONCLUSION (where-204): normal termination;   0.415 seconds, 112304 max kilobytes
+CONCLUSION (where-205): normal termination;   0.415 seconds, 110832 max kilobytes
+CONCLUSION (where-206): normal termination;   0.431 seconds, 117872 max kilobytes
+CONCLUSION (where-207): normal termination;   0.423 seconds, 121904 max kilobytes
+CONCLUSION (where-208): normal termination;   0.412 seconds, 107040 max kilobytes
+CONCLUSION (where-209): normal termination;   0.441 seconds, 109408 max kilobytes
+CONCLUSION (where-210): normal termination;   0.497 seconds, 122768 max kilobytes
+CONCLUSION (where-300): normal termination;   0.524 seconds, 131824 max kilobytes
+CONCLUSION (where-301): normal termination;   0.502 seconds, 129792 max kilobytes
+CONCLUSION (where-302): normal termination;   0.536 seconds, 124176 max kilobytes
+CONCLUSION (where-303): normal termination;   0.497 seconds, 130032 max kilobytes
+CONCLUSION (where-304): normal termination;   0.491 seconds, 130992 max kilobytes
+CONCLUSION (where-305): normal termination;   0.494 seconds, 130160 max kilobytes
+CONCLUSION (where-306): normal termination;   0.482 seconds, 129216 max kilobytes
+CONCLUSION (where-307): normal termination;   0.458 seconds, 129296 max kilobytes
+CONCLUSION (where-308): normal termination;   0.485 seconds, 125440 max kilobytes
+CONCLUSION (where-309): normal termination;   0.502 seconds, 123712 max kilobytes
+CONCLUSION (where-310): normal termination;   0.573 seconds, 133184 max kilobytes
+where-000     /where-000          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-100     /where-100          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-101     /where-101          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-102     /where-102          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-103     /where-103          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-104     /where-104          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-105     /where-105          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-106     /where-106          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-107     /where-107          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-108     /where-108          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-109     /where-109          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-110     /where-110          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-111     /where-111          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-112     /where-112          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-113     /where-113          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-114     /where-114          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-115     /where-115          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-116     /where-116          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-117     /where-117          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-118     /where-118          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-119     /where-119          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-120     /where-120          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-200     /where-200          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-201     /where-201          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-202     /where-202          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-203     /where-203          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-204     /where-204          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-205     /where-205          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-206     /where-206          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-207     /where-207          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-208     /where-208          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-209     /where-209          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-210     /where-210          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-300     /where-300          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-301     /where-301          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-302     /where-302          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-303     /where-303          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-304     /where-304          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-305     /where-305          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-306     /where-306          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-307     /where-307          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-308     /where-308          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-309     /where-309          : [32mPASS[0m  [Options: tokenize, ignore case]
+where-310     /where-310          : [32mPASS[0m  [Options: tokenize, ignore case]

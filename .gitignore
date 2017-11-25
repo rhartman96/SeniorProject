@@ -2,7 +2,14 @@
 *.config
 *.trace
 *.pyc
+*.DS_Store
 .DS_Store
+*.csv
+*.json
+*.trace_exception
+*.trace_status
+*.trace_stdOut
+*.trace_timeout_status
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

@@ -18,7 +18,7 @@ def getWeights():
     exitStatusDistWeight = 8.0 # 8/28 on selection sort when run by itself (0.286)
     exceptionTypeDistWeight = 4.0 # 4/28 on selection sort when run by itself (0.143)
     programOutputDistWeight = 18.0 # 18/28 on selection sort when run by itself (0.643)
-    editDistWeight = 0.0 # 20/28 on selection sort when run by itself (0.714)
+    editDistWeight = 20.0 # 20/28 on selection sort when run by itself (0.714)
 
     # 15/28 with all of these metrics weighted accordingly (except program Output distance)
     # 24/28 with all of these metrics weighted accordingly
