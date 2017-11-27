@@ -1,1 +1,1 @@
-Off by one error
+Off by one error (high = mid-1)
