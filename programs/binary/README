@@ -11,23 +11,23 @@ REFERENCE:
 
 
 SUBMITTED:
-02:  Correctly implemented binary search                     "CORRECT"
-03:  Bad midpoint computation (line 18)
-04:  Initialization error (line 20)
-05:  Bad midpoint computation (line 24)
-06:  Bad midpoint computation (line 22)
-07:  Inconsequential change in the order of checking the midopint  *CORRECT*
-08:  Wrong comparison test (line 23)
-09:  Possible overflow on midpoint computuation on extremely large arrays
-10:  Different midpoint computation
-11:  Forgot +1 (line 28)
-12:  Off by one error (line 33)
-13:  Off by one error (line 33)
-14:  Omitted line 33
-15:  Omitted line 28
-16:  High and low updates swapped
-17:  Just one get per iteration; but correct
-18:  Correct
+02:  Correctly implemented binary search -                    "CORRECT"
+03:  Bad midpoint computation (line 18) - 
+04:  Initialization error (line 20) - 
+05:  Bad midpoint computation (line 24) - 
+06:  Bad midpoint computation (line 22) - 
+07:  Inconsequential change in the order of checking the midopint  *CORRECT* - 
+08:  Wrong comparison test (line 23) - 
+09:  Possible overflow on midpoint computuation on extremely large arrays - 
+10:  Different midpoint computation - 
+11:  Forgot +1 (line 28) - 
+12:  Off by one error (line 33) - 
+13:  Off by one error (line 33) - 
+14:  Omitted line 33 - 
+15:  Omitted line 28 -
+16:  High and low updates swapped - 
+17:  Just one get per iteration; but correct ?
+18:  Correct - 
 
 DATA1	:= 1    1 2 3 4 5 6 7 8 9
 DATA2	:= 10   1 2 3 4 5 6 7 8 9 10
