@@ -1,1 +1,1 @@
-Wrong comparison test
+Search wrong direction
