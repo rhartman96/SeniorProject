@@ -13,7 +13,7 @@ public final class Selection {
 
    public static void sort (ArrayList<Integer> data) {
 	   ArrayList<Integer> sorted = new ArrayList<Integer>();
-	   
+
 	   //Sort all values of data
 	   while(data.size() > 0){
 		   //Loop through data, searching for the minimum element
@@ -29,31 +29,18 @@ public final class Selection {
 		   data.remove(min_index);
 	   }
 	   data = sorted;
-	   
    }
 
    /*
      The main program reads the data to sort from the standard input
      stream and prints out the result.
    */
-
    public static void main (final String [] args) {
-      final ArrayList<Integer> data  = new ArrayList<Integer> ();
+      final ArrayList data  = new ArrayList<> ();
       try (final Scanner stdin = new Scanner (System.in)) {
-            while (stdin.hasNextInt()) {
-              data.add(stdin.nextInt());
-            }
+            while (stdin.hasNextInt()) data.add (stdin.nextInt());
       }
-      for(int i = 0; i < data.size(); i++) {
-        for(int j = i; j > 0; j--) {
-          if(data.get(j) < data.get(j-1)) {
-            int temp = data.get(j);
-            data.set(j,data.get(j-1));
-            data.set(j-1,temp);
-          }
-        }
-      }
-      // sort (data);
+      sort (data);
       System.out.println (data);
    }
 }
