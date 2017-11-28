@@ -11,7 +11,7 @@ public final class Selection {
      The statement 'data.set(i,v)' sets the ith element of the list to the integer value 'v'.
    */
 
-   public static void sort (ArrayList<Integer> data) {
+   public static ArrayList<Integer> sort (ArrayList<Integer> data) {
 	   ArrayList<Integer> sorted = new ArrayList<Integer>();
 
 	   //Sort all values of data
@@ -28,7 +28,8 @@ public final class Selection {
 		   sorted.add(minimum);
 		   data.remove(min_index);
 	   }
-	   data = sorted;
+	   //data = sorted;
+     return sorted;
    }
 
    /*
@@ -36,11 +37,11 @@ public final class Selection {
      stream and prints out the result.
    */
    public static void main (final String [] args) {
-      final ArrayList data  = new ArrayList<> ();
+      ArrayList data  = new ArrayList<> ();
       try (final Scanner stdin = new Scanner (System.in)) {
             while (stdin.hasNextInt()) data.add (stdin.nextInt());
       }
-      sort (data);
+      data = sort (data);
       System.out.println (data);
    }
 }
