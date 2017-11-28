@@ -12,21 +12,31 @@ import Cmd
 import numpy as np
 
 def getWeights():
-    lineDistWeight = 0.0 # 2/28 on selection sort when run by itself (0.071) (THIS SEEMS TO HURT THE RESULTS)
-    methodDistWeight = 19.0 # 19/28 on selection sort when run by itself (0.679)
-    timeoutDistWeight = 0.0 # 6/28 on selection sort when run by itself (0.214) ** Not useful, reduntent with exit status
-    exitStatusDistWeight = 8.0 # 8/28 on selection sort when run by itself (0.286)
-    exceptionTypeDistWeight = 4.0 # 4/28 on selection sort when run by itself (0.143)
-    programOutputDistWeight = 18.0 # 18/28 on selection sort when run by itself (0.643)
-    editDistWeight = 20.0 # 20/28 on selection sort when run by itself (0.714)
+    lineDistWeight = 0.0 # 2/28, 2/17 on selection sort when run by itself (0.071) (THIS SEEMS TO HURT THE RESULTS)
+    methodDistWeight = 19.0 # 19/28, 6/17 on selection sort when run by itself (0.679)
+    timeoutDistWeight = 6.0 # 6/28, 5/17 on selection sort when run by itself (0.214) ** Not useful, reduntent with exit status
+    exitStatusDistWeight = 8.0 # 8/28, 5/17 on selection sort when run by itself (0.286)
+    exceptionTypeDistWeight = 4.0 # 4/28, 0/17 on selection sort when run by itself (0.143)
+    programOutputDistWeight = 0.0 # 18/28, 8/17 on selection sort when run by itself (0.643)
+    editDistWeight = 20.0 # 20/28, 9/17 on selection sort when run by itself (0.714)
 
-    # 15/28 with all of these metrics weighted accordingly (except program Output distance)
-    # 24/28 with all of these metrics weighted accordingly
-    # 23/28 with program output dist and edit dist weighted accordingly
-    # 24/28 with everything except edit distance!!! Much much faster!!
-    # 25/28 with everything except line Distance and edit distance !!!
-    # 21/28 with everything except line distance and program output distance
-    # 26/28 with everything except line distance, timeout dist, and edit dist
+    #USING SELECTION SORT OPTIMAL WEIGHTS
+    # 15/28, 7/17 with all of these metrics weighted accordingly (except program Output distance)
+    # 24/28, 10/17 with all of these metrics weighted accordingly
+    # 23/28, 10/17 with program output dist and edit dist weighted accordingly
+    # 24/28, 10/17 with everything except edit distance!!! Much much faster!!
+    # 25/28, 10/17 with everything except line Distance and edit distance !!!
+    # 21/28, 8/17 with everything except line distance and program output distance
+    # 26/28, 10/17 with everything except line distance, timeout dist, and edit dist
+
+    #USING BINARY SEARCH OPTIMAL WEIGHTS
+    # ___, ___ with all of these metrics weighted accordingly (except program Output distance)
+    # ___, ___ with all of these metrics weighted accordingly
+    # ___, ___ with program output dist and edit dist weighted accordingly
+    # ___, ___ with everything except edit distance!!! Much much faster!!
+    # ___, ___ with everything except line Distance and edit distance !!!
+    # ___, ___ with everything except line distance and program output distance
+    # ___, ___ with everything except line distance, timeout dist, and edit dist
 
     return np.array([ lineDistWeight, methodDistWeight, timeoutDistWeight, exitStatusDistWeight, exceptionTypeDistWeight, programOutputDistWeight, editDistWeight ])
 
