@@ -35,4 +35,21 @@ selection_map["var2"] = ["variation", "skuhersk_max"]
 # map submissions to expected references
 binary_map = dict()
 
-binary_map[""] = [""]
+binary_map["Binary02"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+binary_map["Binary03"] = ["IncorrectMidpoint"]
+binary_map["Binary04"] = ["Initialization_error"]
+binary_map["Binary05"] = ["IncorrectMidpoint"]
+binary_map["Binary06"] = ["IncorrectMidpoint"]
+binary_map["Binary07"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+binary_map["Binary08"] = ["WrongComparisonTest"]
+binary_map["Binary09"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+binary_map["Binary10"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+binary_map["Binary11"] = ["Forgot"]
+binary_map["Binary12"] = ["OffByOne"]
+binary_map["Binary13"] = ["OffByOne"]
+binary_map["Binary14"] = ["updateHigh"]
+binary_map["Binary15"] = ["updateLow"]
+binary_map["Binary16"] = ["HighLowSwap"]
+binary_map["Binary17"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+binary_map["Binary18"] = ["AndreCorrectSolution", "CalvinIterative", "CalvinRecursive", "JavaCorrectBSearch"]
+
