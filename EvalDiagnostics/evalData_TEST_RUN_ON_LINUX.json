@@ -11,7 +11,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -20,7 +20,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -33,7 +33,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/P",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
         0.0,
         [
             [
@@ -42,8 +42,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -51,22 +51,23 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
             "inner loop increment bad": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AR2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
-        0.2786136020290316,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
+        0.023949453418694307,
         [
             [
                 0.0,
@@ -74,8 +75,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                261
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -83,21 +84,22 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                276
+                1.0,
+                0.0
             ]
         ],
         {
             "missing outer loop increment": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/empty2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/empty",
         0.0,
         [
             [
@@ -107,7 +109,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -116,21 +118,21 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
             "empty program": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "empty program": true
         },
-        false
+        true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/nika/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        0.8360302979820016,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/nika",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman",
+        0.00032983167545627765,
         [
             [
                 0.0,
@@ -139,7 +141,7 @@
                 0.0,
                 0.0,
                 0.0,
-                103
+                0.0
             ],
             [
                 0.0,
@@ -148,7 +150,7 @@
                 0.0,
                 0.0,
                 0.0,
-                16
+                0.0
             ]
         ],
         {
@@ -161,39 +163,39 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AE2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        0.1343206589912802,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AE",
+        0.0,
         [
             [
                 0.0,
-                0.0001704830519683176,
+                6.345224873449684e-05,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                11
+                0.0
             ],
             [
                 0.0,
-                0.0010966108038726885,
+                0.0003082537601580837,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                10
+                0.0
             ]
         ],
         {
             "outer loop test off by one": true
         },
         {
-            "correct": true
+            "outer loop test off by one": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/li2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
         0.0,
         [
             [
@@ -202,8 +204,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -211,8 +213,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
@@ -226,8 +228,8 @@
         true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/cambron_chri/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AG",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/cambron_chri",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/empty",
         0.0,
         [
             [
@@ -237,7 +239,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -246,7 +248,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -254,9 +256,9 @@
             "": true
         },
         {
-            "uses command line arguments instead of scanner": true
+            "empty program": true
         },
-        false
+        true
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/C",
@@ -269,8 +271,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -278,8 +280,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
@@ -302,7 +304,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -311,7 +313,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -324,7 +326,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/li1",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
         0.0,
         [
             [
@@ -333,8 +335,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -342,8 +344,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
@@ -359,7 +361,7 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/bounds2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
-        0.40224752698970856,
+        0.0345769493673937,
         [
             [
                 0.0,
@@ -368,7 +370,7 @@
                 0.0,
                 0.0,
                 0.0,
-                48
+                0.0
             ],
             [
                 0.0,
@@ -376,8 +378,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                19
+                1.0,
+                0.0
             ]
         ],
         {
@@ -389,41 +391,41 @@
         true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/autry_john/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
-        31.925559774298023,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/autry_john",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/bounds",
+        0.0,
         [
             [
                 0.0,
-                0.03402361682303667,
+                0.007178769050312228,
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                107
+                1.0,
+                0.0
             ],
             [
                 0.0,
-                0.04968344412155712,
+                0.01568504563880857,
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                20
+                1.0,
+                0.0
             ]
         ],
         {
             "increment of outer loop counter in inner loop": true
         },
         {
-            "values not swapped correctly": true
+            "increment of outer loop counter in inner loop": true
         },
-        false
+        true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/craven_matth/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
-        0.8561574468584463,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/craven_matth",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman",
+        0.06500758629038754,
         [
             [
                 0.0,
@@ -432,7 +434,7 @@
                 0.0,
                 0.0,
                 0.0,
-                75
+                0.0
             ],
             [
                 0.0,
@@ -441,7 +443,7 @@
                 0.0,
                 0.0,
                 0.0,
-                26
+                0.0
             ]
         ],
         {
@@ -454,7 +456,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ref2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy",
         0.0,
         [
             [
@@ -464,7 +466,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -473,7 +475,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -487,7 +489,7 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/swap",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AD",
-        0.049293447956263794,
+        0.004237234388694195,
         [
             [
                 0.0,
@@ -496,7 +498,7 @@
                 0.0,
                 0.0,
                 0.0,
-                36
+                0.0
             ],
             [
                 0.0,
@@ -505,7 +507,7 @@
                 0.0,
                 0.0,
                 0.0,
-                18
+                0.0
             ]
         ],
         {
@@ -519,7 +521,7 @@
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AH2",
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AH",
-        0.03314748304825153,
+        0.002849337201879822,
         [
             [
                 0.0,
@@ -528,7 +530,7 @@
                 0.0,
                 0.0,
                 0.0,
-                43
+                0.0
             ],
             [
                 0.0,
@@ -537,7 +539,7 @@
                 0.0,
                 0.0,
                 0.0,
-                24
+                0.0
             ]
         ],
         {
@@ -550,7 +552,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/var1",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation",
         0.0,
         [
             [
@@ -560,7 +562,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -568,8 +570,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
@@ -581,8 +583,8 @@
         true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ryan_hartman/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ryan_hartman",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman",
         0.0,
         [
             [
@@ -592,7 +594,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -601,7 +603,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -625,7 +627,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -634,7 +636,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -657,7 +659,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -666,7 +668,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -678,40 +680,40 @@
         true
     ],
     [
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/dubois_conno/submission",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AE",
-        2.9856745872096453,
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/dubois_conno",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman",
+        0.06720246594409857,
         [
             [
                 0.0,
-                0.017746968839297828,
+                0.016304044880813162,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                90
+                0.0
             ],
             [
                 0.0,
-                0.00776430791558147,
+                0.005982739801864478,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                19
+                0.0
             ]
         ],
         {
             "not selection sort": true
         },
         {
-            "outer loop test off by one": true
+            "correct": true
         },
         false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/Q",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
         0.0,
         [
             [
@@ -720,8 +722,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -729,21 +731,22 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
             "missing outer loop increment": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        true
+        false
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/ref1",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy",
         0.0,
         [
             [
@@ -753,7 +756,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -762,7 +765,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -785,7 +788,7 @@
                 0.0,
                 0.0,
                 0.0,
-                37
+                0.0
             ],
             [
                 0.0,
@@ -794,7 +797,7 @@
                 0.0,
                 0.0,
                 0.0,
-                18
+                0.0
             ]
         ],
         {
@@ -807,7 +810,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/var2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation/submission",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/variation",
         0.0,
         [
             [
@@ -817,7 +820,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -825,8 +828,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0
+                1.0,
+                0.0
             ]
         ],
         {
@@ -849,7 +852,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ],
             [
                 0.0,
@@ -858,7 +861,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0
+                0.0
             ]
         ],
         {
@@ -871,7 +874,7 @@
     ],
     [
         "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/Submissions/AQ2",
-        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/AR",
+        "/udrive/student/rhartman2014/SeniorProject/programs/selection_sort_calvin/References/skuhersk_max",
         0.0,
         [
             [
@@ -880,8 +883,8 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                2
+                1.0,
+                0.0
             ],
             [
                 0.0,
@@ -889,16 +892,17 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                2
+                1.0,
+                0.0
             ]
         ],
         {
             "inner loop increment bad": true
         },
         {
-            "missing outer loop increment": true
+            "inner loop increment bad": true,
+            "values not swapped correctly": true
         },
-        false
+        true
     ]
 ]
