@@ -37,6 +37,13 @@ def get_command_counts(trace_file_path, verbose):
         else:
             line_count += 1
 
+        # split the string up so we know to look at the right place
+        # this way the file path can't cause it to find a command
+        split_string = line.split()
+
+        if len(split_string) > 1: # some of the trace files have inconsistencies that need this check
+        	line = split_string[1]
+
         if "get" in line:
             get_count += 1
         elif "set" in line:
@@ -76,8 +83,8 @@ def get_distance(tfp_a, tfp_b, main_config = dict()):
 
 def main():
 
-    tfp = "/Users/calvinwinget/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/submission/run1.trace"
-    ryan = "/Users/calvinwinget/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/submission/run1.trace"
+    tfp = "/Users/calvinwinget/SeniorProject/programs/selection_sort_calvin/References/gluck_jeremy/run1.trace"
+    ryan = "/Users/calvinwinget/SeniorProject/programs/selection_sort_calvin/References/ryan_hartman/run1.trace"
 
     try:
 
