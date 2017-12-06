@@ -13,12 +13,12 @@ import numpy as np
 
 def getWeights():
     lineDistWeight = 0.0 # 2/28, 2/17 on selection sort when run by itself (0.071) (THIS SEEMS TO HURT THE RESULTS)
-    methodDistWeight = 0.5157563 # 19/28, 6/17 on selection sort when run by itself (0.679)
+    methodDistWeight = 0.0 # 19/28, 6/17 on selection sort when run by itself (0.679)
     timeoutDistWeight = 0.0# 6/28, 5/17 on selection sort when run by itself (0.214) ** Not useful, reduntent with exit status
-    exitStatusDistWeight = 0.28991597 # 8/28, 5/17 on selection sort when run by itself (0.286)
-    exceptionTypeDistWeight = 0.07142857 # 4/28, 0/17 on selection sort when run by itself (0.143)
-    programOutputDistWeight = 0.55672269 # 18/28, 8/17 on selection sort when run by itself (0.643)
-    editDistWeight = 0.0 # 20/28, 9/17 on selection sort when run by itself (0.714)
+    exitStatusDistWeight = 0.0 # 8/28, 5/17 on selection sort when run by itself (0.286)
+    exceptionTypeDistWeight = 0.0 # 4/28, 0/17 on selection sort when run by itself (0.143)
+    programOutputDistWeight = 0.0 # 18/28, 8/17 on selection sort when run by itself (0.643)
+    editDistWeight = 1.0 # 20/28, 9/17 on selection sort when run by itself (0.714)
 
     #USING SELECTION SORT OPTIMAL WEIGHTS
     # 15/28, 7/17 with all of these metrics weighted accordingly (except program Output distance)
