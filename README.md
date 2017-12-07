@@ -10,6 +10,7 @@ To try and sovle this problem we broke the process up into three components:
 2. Generate Feedback
 3. Evaluate Feedback
 
+Our algorithm design can be seen [here](pdfs/algorithm-design.pdf)
 ## Record Feedback
 
 To record the behaviors of programs we first had to compile the Java programs to create class files. We then instrumented the class files to print the state of a list and the call made to the list. The programs are then run and a trace file is created from these print statements for each test case.
@@ -21,3 +22,19 @@ A distance vector is computed from each submitted program to each reference prog
 ## Evaluate Feedback
 
 Each submitted program is checked to see if the feedback assigned to it is the same as the expected feedback. The number of correct matches was then compared to the total number of submitted programs
+
+# Figures
+[Individual Feature Analysis](pdfs/BarGraphFeatures.pdf)
+
+[Combination Feature Analysis](pdfs/BarGraphComboAnalysis_with_javalist.pdf)
+
+[Selection Sort Results Heatmap](pdfs/selectionSort.pdf)
+
+[Binary Search Results Heatmap](pdfs/binarySearch.pdf)
+
+[Java List Results Heatmap](pdfs/javaList.pdf)
+# Conclusions
+- Using feature combinations outperforms any single individual feature
+- Method distance is able to capture the majority of information gained from edit distance in a fraction of the time
+- The system achieved a high probability of matching a submission with the correct feedback
+- With little computational overhead students can receive personalized feedback compared to current feedback systems (ex. test cases)
