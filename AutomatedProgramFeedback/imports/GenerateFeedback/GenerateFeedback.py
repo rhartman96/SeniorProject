@@ -103,8 +103,9 @@ def generateFeedback(javaFiles, traceFiles, pathToProjectFolder, traceDir, verbo
 
 def normalize(referenceMapToDistVectors, verbose):
 	#find the min and max value of each component
-	print()
-	print()
+	if verbose:
+		print()
+		print()
 	maxVector = None
 	minVector = None
 	for referencePath in referenceMapToDistVectors.keys():
@@ -140,8 +141,9 @@ def normalize(referenceMapToDistVectors, verbose):
 	for referencePath in referenceMapToDistVectors.keys():
 		vector, spot2 = referenceMapToDistVectors[referencePath]
 		weights = Distance.getWeights()
-		print("Vector: " + str(vector))
-		print("Vector Weighted: " + str(vector*weights))
+		if verbose:
+			print("Vector: " + str(vector))
+			print("Vector Weighted: " + str(vector*weights))
 		referenceMapToDistVectors[referencePath] = (util.getMagnitude(vector*weights), spot2)
 
 	return referenceMapToDistVectors

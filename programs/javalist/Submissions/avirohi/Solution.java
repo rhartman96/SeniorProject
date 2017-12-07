@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Scanner;
-public class Li {
+public class Solution {
     public static void main(String[] args) {
         int m=0,p=0;
         Scanner sc=new Scanner(System.in);

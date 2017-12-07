@@ -27,7 +27,8 @@ def evaluateFeedback(feedback, mainConfig=dict(), verbose=False):
         #print(user_name_path)
         correct_feedback_file = os.path.join(user_name_path, "summary.txt")
         #correct_feedback_set = set()
-        print(str(feedback[user_name_path]))
+        if verbose:
+            print(str(feedback[user_name_path]))
         mapped_feedback = os.path.join(feedback[user_name_path][0], "summary.txt")
 
         if verbose:
